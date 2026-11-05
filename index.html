@@ -1,23 +1,134 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mis Reseñas de Películas</title>
-  <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SALA 35mm - Un archivo personal de cine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>CineVisión: Mis Reseñas</h1>
-  </header>
-  <main>
-    <article class="tarjeta-pelicula">
-      <img src="imagenes/posters/interstellar.jpg" alt="Poster Interstellar">
-      <h2>Interstellar (2014)</h2>
-      <p class="calificacion">★ ★ ★ ★ ★ (5/5)</p>
-      <p>Una obra maestra visual y sonora sobre la exploración espacial y el amor a través del tiempo.</p>
-      <a href="resenas/interstellar.html">Leer reseña completa</a>
-    </article>
-  </main>
+    <header class="main-header">
+        <div class="logo-container">
+            <a href="index.html" class="logo-link">
+                <span class="logo-sala">SALA</span> <span class="logo-35mm">35mm</span><span class="logo-dot">.</span>
+            </a>
+            <p class="logo-subtitle">UN ARCHIVO PERSONAL DE CINE</p>
+        </div>
+        <nav class="header-nav">
+            CINE &middot; MEMORIA &middot; OPINIÓN
+        </nav>
+    </header>
+
+    <main id="app-container">
+        <!-- HOME VIEW -->
+        <section id="home-view" class="view active">
+            <div class="hero-section">
+                <div class="hero-content">
+                    <h1>Películas que<br>merecen quedarse.</h1>
+                    <p>Un registro personal de historias que dejan algo<br>después de los créditos.</p>
+                </div>
+            </div>
+
+            <div class="controls-section">
+                <div class="search-bar">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    <input type="text" id="search-input" placeholder="Buscar una película...">
+                </div>
+
+                <div class="filters">
+                    <button class="filter-btn active" data-filter="all">Todas</button>
+                    <button class="filter-btn" data-filter="5">★ 5</button>
+                    <button class="filter-btn" data-filter="4">★ 4+</button>
+                    <button class="filter-btn" data-filter="3">★ 3+</button>
+                    <button class="filter-btn" data-filter="2">★ 2+</button>
+                    
+                    <select id="year-filter" class="year-select">
+                        <option value="all">Todos los años</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="collection-header">
+                <h2>MI COLECCIÓN</h2>
+                <span id="movie-count">0 PELÍCULAS</span>
+            </div>
+
+            <div id="movie-grid" class="movie-grid">
+                <!-- Posters will be injected here -->
+            </div>
+            
+            <div id="empty-state" class="empty-state hidden">
+                <p>No se encontraron películas con esos criterios.</p>
+            </div>
+        </section>
+
+        <!-- MOVIE DETAIL VIEW -->
+        <section id="movie-view" class="view hidden">
+            <div class="detail-navigation">
+                <a href="#" id="back-btn" class="back-link">&larr; Volver a la colección</a>
+                <button id="share-btn" class="share-btn" title="Compartir">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+                </button>
+            </div>
+
+            <article class="movie-detail">
+                <div class="detail-poster-container">
+                    <img id="detail-poster" src="" alt="Póster">
+                </div>
+                
+                <div class="detail-content">
+                    <div class="detail-header">
+                        <h1 id="detail-title" class="detail-title"></h1>
+                        <p class="detail-meta">
+                            <span id="detail-year"></span> &middot; Dir. <span id="detail-director"></span>
+                        </p>
+                        <div id="detail-rating" class="detail-stars"></div>
+                    </div>
+                    
+                    <div class="detail-sidebar-info">
+                        <div class="info-block">
+                            <span class="info-label">AÑO</span>
+                            <span id="side-year" class="info-value"></span>
+                        </div>
+                        <div class="info-block">
+                            <span class="info-label">DIRECTOR</span>
+                            <span id="side-director" class="info-value"></span>
+                        </div>
+                        <div class="info-block">
+                            <span class="info-label">DURACIÓN</span>
+                            <span id="side-duration" class="info-value"></span>
+                        </div>
+                        <div class="info-block">
+                            <span class="info-label">GÉNERO</span>
+                            <span id="side-genre" class="info-value"></span>
+                        </div>
+                    </div>
+
+                    <div class="short-opinion-box">
+                        <span class="section-label">OPINIÓN CORTA</span>
+                        <p id="detail-short-opinion" class="short-opinion-text"></p>
+                    </div>
+
+                    <div class="long-opinion-box">
+                        <span class="section-label red-text">LA RESEÑA</span>
+                        <h2 class="review-title">Una mirada personal.</h2>
+                        <div id="detail-long-opinion" class="long-opinion-text"></div>
+                        <div class="whatsapp-share-container">
+                            <button id="whatsapp-share" class="whatsapp-btn">Compartir en WhatsApp</button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    
+    <footer class="main-footer">
+        CINE &middot; MEMORIA &middot; OPINIÓN
+    </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
