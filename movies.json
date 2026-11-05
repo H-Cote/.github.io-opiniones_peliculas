@@ -12,6 +12,18 @@
     "longOpinion": "Christopher Nolan vuelve a desafiar los límites del cine con una obra monumental sobre el creador de la bomba atómica. Más que una biografía, Oppenheimer es un estudio fascinante sobre el poder, la culpa y el costo del conocimiento.\n\nUna película que se siente necesaria, actual y profundamente humana, con una dirección impecable y una actuación memorable de Cillian Murphy.\n\nLa banda sonora de Ludwig Göransson envuelve cada escena en una atmósfera de tensión ineludible, transformando las conferencias de física en verdaderos thrillers psicológicos."
   },
   {
+    "id": "Godzilla Minus Zero",
+    "title": "Godzilla Minus Zero",
+    "year": 2026,
+    "director": "Takashi Yamazaki",
+    "rating": 5,
+    "duration": "2h 15m",
+    "genre": "Drama, Historia",
+    "poster": "assets/posters/Godzilla_minus_zero.webp",
+    "shortOpinion": "Obra mestra!! La película definitica de Godzilla!!! Si o si veánla en IMAX",
+    "longOpinion": "Elementos de homenaje. Respuesta a Oppenheimer. Innovación dentro del universo cinemetográfico de Godzilla. Mensaje"
+  },
+  {
     "id": "dune-part-two",
     "title": "Dune: Part Two",
     "year": 2024,
