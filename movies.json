@@ -1,15 +1,15 @@
 [
   {
-    "id": "oppenheimer",
-    "title": "Oppenheimer",
-    "year": 2023,
-    "director": "Christopher Nolan",
+    "id": "Good-Luck-Have-Fun-Dont-Die",
+    "title": "Good Luck, Have Fun, Don't Die",
+    "year": 2025,
+    "director": "Gore Verbinski",
     "rating": 5,
     "duration": "180 min",
-    "genre": "Drama, Historia",
-    "poster": "https://upload.wikimedia.org/wikipedia/en/4/4a/Oppenheimer_%28film%29.jpg",
+    "genre": "science fiction",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/b/b0/Good_Luck%2C_Have_Fun%2C_Don%27t_Die_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
     "shortOpinion": "Una experiencia cinematográfica extraordinaria.",
-    "longOpinion": "Christopher Nolan vuelve a desafiar los límites del cine con una obra monumental sobre el creador de la bomba atómica. Más que una biografía, Oppenheimer es un estudio fascinante sobre el poder, la culpa y el costo del conocimiento.\n\nUna película que se siente necesaria, actual y profundamente humana, con una dirección impecable y una actuación memorable de Cillian Murphy.\n\nLa banda sonora de Ludwig Göransson envuelve cada escena en una atmósfera de tensión ineludible, transformando las conferencias de física en verdaderos thrillers psicológicos."
+    "longOpinion": "Lorem ipsum dolor sit amet consectetur, adipiscing elit lacinia neque placerat, vestibulum fames curae natoque. Porttitor quisque ligula vivamus etiam eleifend iaculis imperdiet malesuada hac, in gravida pharetra consequat ultrices luctus turpis enim. \n\n Neque fringilla dictum etiam condimentum conubia magna cursus faucibus ornare ad facilisis pulvinar, justo turpis quisque cubilia ultrices nascetur inceptos aptent id suspendisse tincidunt nunc semper, leo mus iaculis vulputate nibh sociis sagittis interdum sem congue senectus."
   },
   {
     "id": "godzilla-minus-zero",
@@ -24,27 +24,14 @@
     "longOpinion": "Elementos de homenaje. Respuesta a Oppenheimer. Innovación dentro del universo cinemetográfico de Godzilla. Mensaje"
   },
   {
-    "id": "dune-part-two",
-    "title": "Dune: Part Two",
-    "year": 2024,
+    "id": "Hamnet",
+    "title": "Hamnet",
+    "year": 2025,
     "director": "Denis Villeneuve",
     "rating": 5,
     "duration": "166 min",
-    "genre": "Ciencia Ficción, Épico",
-    "poster": "https://upload.wikimedia.org/wikipedia/en/5/52/Dune_Part_Two_poster.jpeg",
-    "shortOpinion": "El renacimiento del cine épico de ciencia ficción.",
-    "longOpinion": "Denis Villeneuve nos entrega una de las secuelas más impresionantes de la historia del cine. Una escala visual asombrosa acompañada de una narrativa mítica y trágica.\n\nEl diseño sonoro y la dirección de fotografía convierten el desierto de Arrakis en un personaje vivo y aterrador. La evolución de Paul Atreides es magistral y oscura."
-  },
-  {
-    "id": "past-lives",
-    "title": "Past Lives",
-    "year": 2023,
-    "director": "Celine Song",
-    "rating": 4,
-    "duration": "105 min",
-    "genre": "Romance, Drama",
-    "poster": "https://upload.wikimedia.org/wikipedia/en/0/05/Past_Lives_%28film%29_poster.jpg",
-    "shortOpinion": "Un poema sobre las vidas que no vivimos.",
-    "longOpinion": "Celine Song debuta con una sensibilidad abrumadora. Past Lives no es una historia de amor convencional, sino una meditación sobre el destino (In-Yun), las decisiones y la aceptación.\n\nEl silencio en esta película dice mucho más que los diálogos. Los últimos quince minutos son una de las expresiones cinematográficas más hermosas y melancólicas que he visto en años."
+    "genre": "Historical drama",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/1/1f/Hamnet_film_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+    "shortOpinion": "Lorem ipsum dolor sit amet consectetur, adipiscing elit lacinia neque placerat, vestibulum fames curae natoque. Porttitor quisque ligula vivamus etiam eleifend iaculis imperdiet malesuada hac, in gravida pharetra consequat ultrices luctus turpis enim. \n\n Neque fringilla dictum etiam condimentum conubia magna cursus faucibus ornare ad facilisis pulvinar, justo turpis quisque cubilia ultrices nascetur inceptos aptent id suspendisse tincidunt nunc semper, leo mus iaculis vulputate nibh sociis sagittis interdum sem congue senectus."
   }
 ]
