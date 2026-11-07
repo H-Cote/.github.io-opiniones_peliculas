@@ -595,3 +595,41 @@ button {
     font-size: 1.5rem;
   }
 }
+/* Estilos para el contenido generado por Markdown */
+.long-opinion-text h2,
+.long-opinion-text h3 {
+  font-family: var(--font-serif);
+  color: var(--text-main);
+  margin: 2rem 0 1rem;
+  font-weight: 400;
+}
+
+.long-opinion-text strong {
+  color: var(--text-main);
+}
+
+.long-opinion-text ul,
+.long-opinion-text ol {
+  margin-bottom: 1.5rem;
+  padding-left: 2rem;
+  color: var(--text-sec);
+}
+
+.long-opinion-text li {
+  margin-bottom: 0.5rem;
+}
+
+.long-opinion-text blockquote {
+  border-left: 2px solid var(--burgundy);
+  padding-left: 1rem;
+  font-style: italic;
+  margin: 1.5rem 0;
+  color: var(--text-main);
+}
+
+.long-opinion-text img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin: 1.5rem 0;
+  border: 1px solid var(--border);
+}

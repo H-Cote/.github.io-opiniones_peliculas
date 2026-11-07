@@ -205,8 +205,28 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('detail-short-opinion').textContent = movie.shortOpinion;
         
         // Handle paragraphs for long opinion
-        const formattedReview = movie.longOpinion.split('\n\n').map(p => `<p>${p}</p>`).join('');
-        document.getElementById('detail-long-opinion').innerHTML = formattedReview;
+        // Fetch and parse Markdown file
+        const longOpinionContainer = document.getElementById('detail-long-opinion');
+        longOpinionContainer.innerHTML = '<p>Cargando reseña...</p>';
+
+        // Busca un archivo .md que se llame igual que el ID de la película
+        fetch(`reviews/${movie.id}.md`)
+        .then(response => {
+            if (!response.ok) throw new Error('No se encontró el archivo markdown');
+            return response.text();
+        })
+        .then(markdownText => {
+            // Convierte el Markdown a HTML y lo inyecta
+            longOpinionContainer.innerHTML = marked.parse(markdownText);
+        })
+        .catch(error => {
+            // Si no hay archivo .md, usa el texto de movies.json como respaldo
+            if (movie.longOpinion) {
+                longOpinionContainer.innerHTML = movie.longOpinion.split('\n\n').map(p => `<p>${p}</p>`).join('');
+            } else {
+                longOpinionContainer.innerHTML = '<p>Reseña en construcción.</p>';
+            }
+        });
     }
 
     init();
