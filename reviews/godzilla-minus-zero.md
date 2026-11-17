@@ -37,4 +37,4 @@ Y bueno, también nos enseña que nunca hay que usar rayos para atacar a Ghidora
 
 ## Recomendación 
 
-Si quieres saber un poco más sobre el origen de Godzilla y la Segunda Guerra Mundial te recomiendo una nota que hice hace algunos años, espero sea de tu agrado n.n: [Click aqui. El nacimiento de Godzilla](https://labombillailuminarte.wordpress.com/2015/08/12/el-nacimiento-de-godzilla/)
+Si quieres saber un poco más sobre el origen de Godzilla y la Segunda Guerra Mundial te recomiendo una nota que hice hace algunos años, espero sea de tu agrado n.n: [Click aqui -> El nacimiento de Godzilla](https://labombillailuminarte.wordpress.com/2015/08/12/el-nacimiento-de-godzilla/)
