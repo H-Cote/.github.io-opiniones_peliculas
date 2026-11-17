@@ -18,7 +18,6 @@ Respecto a la batalla final entre Godzilla y Ghidorah me gustaría destacar cóm
 
 Un punto innovador en esta película es la nueva propuesta en cuanto al estilo de pelea entre Kaijus. En las películas Godzilla llegaba a recibir daños sin embargo nunca había perdido una extremidad y el daño recibido nunca era mostrado de forma tan gráfica llegando a tener con esto escenas de body horror. De igual modo, el factor de regenerativo de Godzilla, conocido en la era Millenium como regenerador G1, le permitia reponerse de daños graves, este proceso tardaba minutos o días, mientras que ahora es instantáneo.
 
-
 ## Respuesta a Oppenheimer.
 
 En Oppenheimer de Nolan, siento que se buscó generarnos empatía con Oppenheimer; por eso tenemos la narración en primera persona y se muestran las visiones que lo atormentan. La película no intenta presentarnos a un prócer intachable, sino a un ser humano con sus aciertos y sus fallos. No obstante, no podemos ignorar que en el proyecto Proyecto Manhattan, se sabia muy bien cual era el fin, no era por progreso científico, sino la destrucción, la muerte... Oppenheimer y su equipo sabían perfectamente lo que hacían y aún así lo hicieron.
@@ -30,7 +29,6 @@ Dos hombres separados por la historia y la ficción, pero unidos por la misma mi
 
 Cambiando un poco de tema, cabe destacar cómo se nos muestra al ejercito de EUA, que inicialmente se muestra como una ayuda pero que finalmente revela que sus verdaderas intenciones son meramente estrategicas y en su beneficio. También es notable la forma caricaturizada en la que se nos muestra a sus tropas, pienso que esto último no es solo en un sentido de burla o parodia sino más bien una forma de resaltar lo ajenos que son el ejército de Estados Unidos con la situación del pueblo japonés, dejándolos desprovistos de su papel favorito de héroes de la humanidad. 
 
-
 ## Mensaje
 
 Considero que la película tiene dos mensajes centrales. Por un lado, nos invita a reflexionar sobre la responsabilidad de la humanidad respecto a lo que es capaz de crear y que un uso incorrecto solo crearía un círculo de destrucción que quizás llegue a un punto en el que no seamos capaces de detener. Y por el otro, en ser conscientes del papel que jugamos en el presente y las repercusión que nuestra acción o inacción tendrá en el futuro. 
@@ -39,4 +37,4 @@ Y bueno, también nos enseña que nunca hay que usar rayos para atacar a Ghidora
 
 ## Recomendación 
 
-Si quieres saber un poco más sobre el origen de Godzilla y la Segunda Guerra Mundial te recomiendo una nota que hice hace algunos años, espero sea de tu agrado n.n [El nacimiento de Godzilla](https://labombillailuminarte.wordpress.com/2015/08/12/el-nacimiento-de-godzilla/)
+Si quieres saber un poco más sobre el origen de Godzilla y la Segunda Guerra Mundial te recomiendo una nota que hice hace algunos años, espero sea de tu agrado n.n: [Click aqui. El nacimiento de Godzilla](https://labombillailuminarte.wordpress.com/2015/08/12/el-nacimiento-de-godzilla/)
